@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A87223A0794A003BB55C /* AppDelegate.m */; };
+		82B6A87623A0794A003BB55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A87523A0794A003BB55C /* ViewController.m */; };
+		82B6A87923A0794A003BB55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B6A87723A0794A003BB55C /* Main.storyboard */; };
+		82B6A87B23A0794B003BB55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B6A87A23A0794B003BB55C /* Assets.xcassets */; };
+		82B6A87E23A0794B003BB55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B6A87C23A0794B003BB55C /* LaunchScreen.storyboard */; };
+		82B6A88123A0794B003BB55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A88023A0794B003BB55C /* main.m */; };
+		82B6A88B23A0794B003BB55C /* NNToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A88A23A0794B003BB55C /* NNToolTests.m */; };
+		82B6A89623A0794B003BB55C /* NNToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A89523A0794B003BB55C /* NNToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B6A88723A0794B003BB55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B6A86623A0794A003BB55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B6A86D23A0794A003BB55C;
+			remoteInfo = NNTool;
+		};
+		82B6A89223A0794B003BB55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B6A86623A0794A003BB55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B6A86D23A0794A003BB55C;
+			remoteInfo = NNTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B6A86E23A0794A003BB55C /* NNTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B6A87123A0794A003BB55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82B6A87223A0794A003BB55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82B6A87423A0794A003BB55C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82B6A87523A0794A003BB55C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82B6A87823A0794A003BB55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82B6A87A23A0794B003BB55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82B6A87D23A0794B003BB55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82B6A87F23A0794B003BB55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B6A88023A0794B003BB55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B6A88623A0794B003BB55C /* NNToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B6A88A23A0794B003BB55C /* NNToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNToolTests.m; sourceTree = "<group>"; };
+		82B6A88C23A0794B003BB55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B6A89123A0794B003BB55C /* NNToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B6A89523A0794B003BB55C /* NNToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNToolUITests.m; sourceTree = "<group>"; };
+		82B6A89723A0794B003BB55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B6A86B23A0794A003BB55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88323A0794B003BB55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88E23A0794B003BB55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B6A86523A0794A003BB55C = {
+			isa = PBXGroup;
+			children = (
+				82B6A87023A0794A003BB55C /* NNTool */,
+				82B6A88923A0794B003BB55C /* NNToolTests */,
+				82B6A89423A0794B003BB55C /* NNToolUITests */,
+				82B6A86F23A0794A003BB55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B6A86F23A0794A003BB55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A86E23A0794A003BB55C /* NNTool.app */,
+				82B6A88623A0794B003BB55C /* NNToolTests.xctest */,
+				82B6A89123A0794B003BB55C /* NNToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B6A87023A0794A003BB55C /* NNTool */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A87123A0794A003BB55C /* AppDelegate.h */,
+				82B6A87223A0794A003BB55C /* AppDelegate.m */,
+				82B6A87423A0794A003BB55C /* ViewController.h */,
+				82B6A87523A0794A003BB55C /* ViewController.m */,
+				82B6A87723A0794A003BB55C /* Main.storyboard */,
+				82B6A87A23A0794B003BB55C /* Assets.xcassets */,
+				82B6A87C23A0794B003BB55C /* LaunchScreen.storyboard */,
+				82B6A87F23A0794B003BB55C /* Info.plist */,
+				82B6A88023A0794B003BB55C /* main.m */,
+			);
+			path = NNTool;
+			sourceTree = "<group>";
+		};
+		82B6A88923A0794B003BB55C /* NNToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A88A23A0794B003BB55C /* NNToolTests.m */,
+				82B6A88C23A0794B003BB55C /* Info.plist */,
+			);
+			path = NNToolTests;
+			sourceTree = "<group>";
+		};
+		82B6A89423A0794B003BB55C /* NNToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A89523A0794B003BB55C /* NNToolUITests.m */,
+				82B6A89723A0794B003BB55C /* Info.plist */,
+			);
+			path = NNToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B6A86D23A0794A003BB55C /* NNTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B6A89A23A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNTool" */;
+			buildPhases = (
+				82B6A86A23A0794A003BB55C /* Sources */,
+				82B6A86B23A0794A003BB55C /* Frameworks */,
+				82B6A86C23A0794A003BB55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNTool;
+			productName = NNTool;
+			productReference = 82B6A86E23A0794A003BB55C /* NNTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82B6A88523A0794B003BB55C /* NNToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B6A89D23A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNToolTests" */;
+			buildPhases = (
+				82B6A88223A0794B003BB55C /* Sources */,
+				82B6A88323A0794B003BB55C /* Frameworks */,
+				82B6A88423A0794B003BB55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B6A88823A0794B003BB55C /* PBXTargetDependency */,
+			);
+			name = NNToolTests;
+			productName = NNToolTests;
+			productReference = 82B6A88623A0794B003BB55C /* NNToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82B6A89023A0794B003BB55C /* NNToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B6A8A023A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNToolUITests" */;
+			buildPhases = (
+				82B6A88D23A0794B003BB55C /* Sources */,
+				82B6A88E23A0794B003BB55C /* Frameworks */,
+				82B6A88F23A0794B003BB55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B6A89323A0794B003BB55C /* PBXTargetDependency */,
+			);
+			name = NNToolUITests;
+			productName = NNToolUITests;
+			productReference = 82B6A89123A0794B003BB55C /* NNToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B6A86623A0794A003BB55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = cycx;
+				TargetAttributes = {
+					82B6A86D23A0794A003BB55C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					82B6A88523A0794B003BB55C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 82B6A86D23A0794A003BB55C;
+					};
+					82B6A89023A0794B003BB55C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 82B6A86D23A0794A003BB55C;
+					};
+				};
+			};
+			buildConfigurationList = 82B6A86923A0794A003BB55C /* Build configuration list for PBXProject "NNTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82B6A86523A0794A003BB55C;
+			productRefGroup = 82B6A86F23A0794A003BB55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B6A86D23A0794A003BB55C /* NNTool */,
+				82B6A88523A0794B003BB55C /* NNToolTests */,
+				82B6A89023A0794B003BB55C /* NNToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B6A86C23A0794A003BB55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B6A87E23A0794B003BB55C /* LaunchScreen.storyboard in Resources */,
+				82B6A87B23A0794B003BB55C /* Assets.xcassets in Resources */,
+				82B6A87923A0794A003BB55C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88423A0794B003BB55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88F23A0794B003BB55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B6A86A23A0794A003BB55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B6A87623A0794A003BB55C /* ViewController.m in Sources */,
+				82B6A88123A0794B003BB55C /* main.m in Sources */,
+				82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88223A0794B003BB55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B6A88B23A0794B003BB55C /* NNToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B6A88D23A0794B003BB55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B6A89623A0794B003BB55C /* NNToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B6A88823A0794B003BB55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B6A86D23A0794A003BB55C /* NNTool */;
+			targetProxy = 82B6A88723A0794B003BB55C /* PBXContainerItemProxy */;
+		};
+		82B6A89323A0794B003BB55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B6A86D23A0794A003BB55C /* NNTool */;
+			targetProxy = 82B6A89223A0794B003BB55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82B6A87723A0794A003BB55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B6A87823A0794A003BB55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82B6A87C23A0794B003BB55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B6A87D23A0794B003BB55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B6A89823A0794B003BB55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82B6A89923A0794B003BB55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B6A89B23A0794B003BB55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82B6A89C23A0794B003BB55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82B6A89E23A0794B003BB55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNTool.app/NNTool";
+			};
+			name = Debug;
+		};
+		82B6A89F23A0794B003BB55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNTool.app/NNTool";
+			};
+			name = Release;
+		};
+		82B6A8A123A0794B003BB55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NNTool;
+			};
+			name = Debug;
+		};
+		82B6A8A223A0794B003BB55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQVP2BJQP;
+				INFOPLIST_FILE = NNToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NNTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B6A86923A0794A003BB55C /* Build configuration list for PBXProject "NNTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B6A89823A0794B003BB55C /* Debug */,
+				82B6A89923A0794B003BB55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B6A89A23A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B6A89B23A0794B003BB55C /* Debug */,
+				82B6A89C23A0794B003BB55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B6A89D23A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B6A89E23A0794B003BB55C /* Debug */,
+				82B6A89F23A0794B003BB55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B6A8A023A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B6A8A123A0794B003BB55C /* Debug */,
+				82B6A8A223A0794B003BB55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B6A86623A0794A003BB55C /* Project object */;
+}
