@@ -14,5 +14,7 @@
 #import "NNString.h"
 #import "NNObserver.h"
 #import "AppManage.h"
+#import "NNMacroDefinition.h"
+#import "NNGoToSystemSet.h"
 
 #endif /* NNTool_h */

@@ -20,6 +20,8 @@
 		82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8AC23A08671003BB55C /* NNObserver.m */; };
 		82B6A8B223A08B46003BB55C /* AppManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B123A08B46003BB55C /* AppManage.m */; };
 		82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */; };
+		B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */; };
+		B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +66,14 @@
 		82B6A8AB23A08671003BB55C /* NNObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNObserver.h; sourceTree = "<group>"; };
 		82B6A8AC23A08671003BB55C /* NNObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNObserver.m; sourceTree = "<group>"; };
 		82B6A8AE23A08ADE003BB55C /* NNEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNEnum.h; sourceTree = "<group>"; };
-		82B6A8AF23A08B01003BB55C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		82B6A8B023A08B46003BB55C /* AppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManage.h; sourceTree = "<group>"; };
 		82B6A8B123A08B46003BB55C /* AppManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManage.m; sourceTree = "<group>"; };
 		82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAPPAuthority.h; sourceTree = "<group>"; };
 		82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAPPAuthority.m; sourceTree = "<group>"; };
+		B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMacroDefinition.h; sourceTree = "<group>"; };
+		B3422B2023A27F540090B7DB /* NNGoToSystemSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNGoToSystemSet.h; sourceTree = "<group>"; };
+		B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNGoToSystemSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +109,7 @@
 				82B6A88923A0794B003BB55C /* NNToolTests */,
 				82B6A89423A0794B003BB55C /* NNToolUITests */,
 				82B6A86F23A0794A003BB55C /* Products */,
+				B3422B1B23A27A310090B7DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,7 +161,7 @@
 		82B6A8A323A07970003BB55C /* NNTool */ = {
 			isa = PBXGroup;
 			children = (
-				82B6A8AF23A08B01003BB55C /* PrefixHeader.pch */,
+				B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */,
 				82B6A8A423A079BE003BB55C /* NNTool.h */,
 				82B6A8AE23A08ADE003BB55C /* NNEnum.h */,
 				82B6A8B023A08B46003BB55C /* AppManage.h */,
@@ -167,8 +174,18 @@
 				82B6A8AC23A08671003BB55C /* NNObserver.m */,
 				82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */,
 				82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */,
+				B3422B2023A27F540090B7DB /* NNGoToSystemSet.h */,
+				B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */,
 			);
 			path = NNTool;
+			sourceTree = "<group>";
+		};
+		B3422B1B23A27A310090B7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B6A8A723A07FBB003BB55C /* NNString.m in Sources */,
+				B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */,
 				82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */,
 				82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */,
 				82B6A87623A0794A003BB55C /* ViewController.m in Sources */,
