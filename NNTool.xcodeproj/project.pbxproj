@@ -15,6 +15,11 @@
 		82B6A88123A0794B003BB55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A88023A0794B003BB55C /* main.m */; };
 		82B6A88B23A0794B003BB55C /* NNToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A88A23A0794B003BB55C /* NNToolTests.m */; };
 		82B6A89623A0794B003BB55C /* NNToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A89523A0794B003BB55C /* NNToolUITests.m */; };
+		82B6A8A723A07FBB003BB55C /* NNString.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8A623A07FBB003BB55C /* NNString.m */; };
+		82B6A8AA23A084ED003BB55C /* NNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8A923A084ED003BB55C /* NNTimer.m */; };
+		82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8AC23A08671003BB55C /* NNObserver.m */; };
+		82B6A8B223A08B46003BB55C /* AppManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B123A08B46003BB55C /* AppManage.m */; };
+		82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,19 @@
 		82B6A89123A0794B003BB55C /* NNToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B6A89523A0794B003BB55C /* NNToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNToolUITests.m; sourceTree = "<group>"; };
 		82B6A89723A0794B003BB55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B6A8A423A079BE003BB55C /* NNTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTool.h; sourceTree = "<group>"; };
+		82B6A8A523A07FBB003BB55C /* NNString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNString.h; sourceTree = "<group>"; };
+		82B6A8A623A07FBB003BB55C /* NNString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNString.m; sourceTree = "<group>"; };
+		82B6A8A823A084ED003BB55C /* NNTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTimer.h; sourceTree = "<group>"; };
+		82B6A8A923A084ED003BB55C /* NNTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTimer.m; sourceTree = "<group>"; };
+		82B6A8AB23A08671003BB55C /* NNObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNObserver.h; sourceTree = "<group>"; };
+		82B6A8AC23A08671003BB55C /* NNObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNObserver.m; sourceTree = "<group>"; };
+		82B6A8AE23A08ADE003BB55C /* NNEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNEnum.h; sourceTree = "<group>"; };
+		82B6A8AF23A08B01003BB55C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82B6A8B023A08B46003BB55C /* AppManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManage.h; sourceTree = "<group>"; };
+		82B6A8B123A08B46003BB55C /* AppManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManage.m; sourceTree = "<group>"; };
+		82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAPPAuthority.h; sourceTree = "<group>"; };
+		82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAPPAuthority.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		82B6A87023A0794A003BB55C /* NNTool */ = {
 			isa = PBXGroup;
 			children = (
+				82B6A8A323A07970003BB55C /* NNTool */,
 				82B6A87123A0794A003BB55C /* AppDelegate.h */,
 				82B6A87223A0794A003BB55C /* AppDelegate.m */,
 				82B6A87423A0794A003BB55C /* ViewController.h */,
@@ -130,6 +149,26 @@
 				82B6A89723A0794B003BB55C /* Info.plist */,
 			);
 			path = NNToolUITests;
+			sourceTree = "<group>";
+		};
+		82B6A8A323A07970003BB55C /* NNTool */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A8AF23A08B01003BB55C /* PrefixHeader.pch */,
+				82B6A8A423A079BE003BB55C /* NNTool.h */,
+				82B6A8AE23A08ADE003BB55C /* NNEnum.h */,
+				82B6A8B023A08B46003BB55C /* AppManage.h */,
+				82B6A8B123A08B46003BB55C /* AppManage.m */,
+				82B6A8A523A07FBB003BB55C /* NNString.h */,
+				82B6A8A623A07FBB003BB55C /* NNString.m */,
+				82B6A8A823A084ED003BB55C /* NNTimer.h */,
+				82B6A8A923A084ED003BB55C /* NNTimer.m */,
+				82B6A8AB23A08671003BB55C /* NNObserver.h */,
+				82B6A8AC23A08671003BB55C /* NNObserver.m */,
+				82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */,
+				82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */,
+			);
+			path = NNTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B6A8A723A07FBB003BB55C /* NNString.m in Sources */,
+				82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */,
+				82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */,
 				82B6A87623A0794A003BB55C /* ViewController.m in Sources */,
 				82B6A88123A0794B003BB55C /* main.m in Sources */,
+				82B6A8AA23A084ED003BB55C /* NNTimer.m in Sources */,
+				82B6A8B223A08B46003BB55C /* AppManage.m in Sources */,
 				82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(SRCROOT)/NNTool/PrefixHeader.pch";
 				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +504,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(SRCROOT)/NNTool/PrefixHeader.pch";
 				PRODUCT_BUNDLE_IDENTIFIER = cycx.NNTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
