@@ -20,6 +20,7 @@
 		82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8AC23A08671003BB55C /* NNObserver.m */; };
 		82B6A8B223A08B46003BB55C /* AppManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B123A08B46003BB55C /* AppManage.m */; };
 		82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */; };
+		82B6A8BF23A33489003BB55C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8BD23A33489003BB55C /* NSDate+Extension.m */; };
 		B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */; };
 		B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,8 @@
 		82B6A8B123A08B46003BB55C /* AppManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManage.m; sourceTree = "<group>"; };
 		82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAPPAuthority.h; sourceTree = "<group>"; };
 		82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAPPAuthority.m; sourceTree = "<group>"; };
+		82B6A8BD23A33489003BB55C /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		82B6A8BE23A33489003BB55C /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMacroDefinition.h; sourceTree = "<group>"; };
 		B3422B2023A27F540090B7DB /* NNGoToSystemSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNGoToSystemSet.h; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 		82B6A8A323A07970003BB55C /* NNTool */ = {
 			isa = PBXGroup;
 			children = (
+				82B6A8BC23A33474003BB55C /* Extension */,
 				B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */,
 				82B6A8A423A079BE003BB55C /* NNTool.h */,
 				82B6A8AE23A08ADE003BB55C /* NNEnum.h */,
@@ -178,6 +182,15 @@
 				B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */,
 			);
 			path = NNTool;
+			sourceTree = "<group>";
+		};
+		82B6A8BC23A33474003BB55C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82B6A8BE23A33489003BB55C /* NSDate+Extension.h */,
+				82B6A8BD23A33489003BB55C /* NSDate+Extension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		B3422B1B23A27A310090B7DB /* Frameworks */ = {
@@ -324,6 +337,7 @@
 				82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */,
 				82B6A87623A0794A003BB55C /* ViewController.m in Sources */,
 				82B6A88123A0794B003BB55C /* main.m in Sources */,
+				82B6A8BF23A33489003BB55C /* NSDate+Extension.m in Sources */,
 				82B6A8AA23A084ED003BB55C /* NNTimer.m in Sources */,
 				82B6A8B223A08B46003BB55C /* AppManage.m in Sources */,
 				82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */,
