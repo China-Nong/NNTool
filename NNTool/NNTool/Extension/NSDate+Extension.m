@@ -187,8 +187,8 @@
 }
 
 /**
- 时间戳转日期 内部自己 / 1000
- remainTime 需要转换的秒数
+ 时间戳转日期 内部自动 / 1000
+ remainTime 需要转换的时间戳
  return 日期
  */
 + (NSDate *)dateWithTimeTimestamp:(NSInteger) timeTimestamp
