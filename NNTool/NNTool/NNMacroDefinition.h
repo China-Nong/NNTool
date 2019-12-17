@@ -41,6 +41,7 @@
 #define kTabBarHeight (CGFloat)(IPHONE_X?(49.0 + 34.0):(49.0))       // TabBar高度
 #define kRGBColor(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A] // 三原色的设置
 #define kColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]                                                       // 16进制颜色值
+#define kCurrentVC [UIViewController currentVC]                      // 当前控制器
 
 /*------------------相关三方key-------------------*/
 /*------------------全局通知-------------------*/

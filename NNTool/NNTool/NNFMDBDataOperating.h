@@ -13,7 +13,7 @@
 
 /**
  单列
- @return 仓库对象
+ @return 单例对象
  */
 + (instancetype) shareFMDBDataOperating;
 

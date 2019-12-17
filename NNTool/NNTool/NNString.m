@@ -7,7 +7,7 @@
 //
 
 #import "NNString.h"
-
+#import "NNTool.h"
 @implementation NNString
 
 /**
@@ -92,6 +92,25 @@
     }
     text = [text substringToIndex:number];
     return [text stringByAppendingString:@"..."];
+}
+
+/**
+ 将阿拉伯数字转换为中文数字
+ arabicNum 字符数字
+ */
++ (NSString *)translationArabicNum:(NSString *)arabicNum
+{
+    NSString *arabicNumStr = [NSString stringWithFormat:@"%@",arabicNum];
+    NSArray *arabicNumeralsArray = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0"];
+    NSArray *chineseNumeralsArray = @[@"一",@"二",@"三",@"四",@"五",@"六",@"七",@"八",@"九",@"零"];
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjects:chineseNumeralsArray forKeys:arabicNumeralsArray];
+    NSString *string = @"";
+    for(int i=0; i < arabicNumStr.length; i++)
+    {
+        unichar ch = [arabicNumStr characterAtIndex: i];
+        string = [string stringByAppendingString:dictionary[[NSString stringWithUTF32Char:ch]]];
+    }
+    return string;
 }
 
 @end

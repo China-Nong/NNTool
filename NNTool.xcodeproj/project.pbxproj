@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0C818AA1C6642EA1BE693C /* libPods-NNTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 512D70F125BB2591E5877138 /* libPods-NNTool.a */; };
 		82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A87223A0794A003BB55C /* AppDelegate.m */; };
 		82B6A87623A0794A003BB55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A87523A0794A003BB55C /* ViewController.m */; };
 		82B6A87923A0794A003BB55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B6A87723A0794A003BB55C /* Main.storyboard */; };
@@ -20,15 +21,22 @@
 		82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8AC23A08671003BB55C /* NNObserver.m */; };
 		82B6A8B223A08B46003BB55C /* AppManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B123A08B46003BB55C /* AppManage.m */; };
 		82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */; };
-		82B6A8BF23A33489003BB55C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A8BD23A33489003BB55C /* NSDate+Extension.m */; };
-		82B6A91523A71BC7003BB55C /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A91423A71BC7003BB55C /* UITableView+Extension.m */; };
 		82B6A91823A768B0003BB55C /* NNFMDBDataOperating.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A91723A768B0003BB55C /* NNFMDBDataOperating.m */; };
 		82B6A92623A768E6003BB55C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A91B23A768E6003BB55C /* FMDatabaseQueue.m */; };
 		82B6A92723A768E6003BB55C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A91E23A768E6003BB55C /* FMDatabaseAdditions.m */; };
 		82B6A92823A768E6003BB55C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A91F23A768E6003BB55C /* FMDatabase.m */; };
 		82B6A92923A768E6003BB55C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A92323A768E6003BB55C /* FMDatabasePool.m */; };
 		82B6A92A23A768E6003BB55C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6A92423A768E6003BB55C /* FMResultSet.m */; };
-		82B6A92B23A768E6003BB55C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82B6A92523A768E6003BB55C /* Info.plist */; };
+		82D4579E23A85CC50045D955 /* UIView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D4579D23A85CC50045D955 /* UIView+NNExtension.m */; };
+		82D457A123A85CEE0045D955 /* NSDate+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457A023A85CEE0045D955 /* NSDate+NNExtension.m */; };
+		82D457A423A881770045D955 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457A223A881770045D955 /* UIView+Extension.m */; };
+		82D457A723A881F20045D955 /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457A623A881F20045D955 /* UIView+Effects.m */; };
+		82D457AA23A881FB0045D955 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457A823A881FB0045D955 /* UIImage+Tool.m */; };
+		82D457AD23A883250045D955 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457AB23A883240045D955 /* UIButton+Extension.m */; };
+		82D457B223A883FC0045D955 /* NSMutableDictionary+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457B123A883FC0045D955 /* NSMutableDictionary+safe.m */; };
+		82D457B323A883FC0045D955 /* NSMutableDictionary+THH.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457AF23A883FB0045D955 /* NSMutableDictionary+THH.m */; };
+		82D457B623A8AD240045D955 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457B523A8AD240045D955 /* NSString+Extension.m */; };
+		82D457B923A8BDB70045D955 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457B823A8BDB70045D955 /* UIViewController+Extension.m */; };
 		B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */; };
 		B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */; };
 /* End PBXBuildFile section */
@@ -51,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD6C519BEF910CCBB30A75D /* Pods-NNTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNTool/Pods-NNTool.debug.xcconfig"; sourceTree = "<group>"; };
+		4FED630DDE2736336FD22143 /* Pods-NNTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNTool/Pods-NNTool.release.xcconfig"; sourceTree = "<group>"; };
+		512D70F125BB2591E5877138 /* libPods-NNTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B6A86E23A0794A003BB55C /* NNTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B6A87123A0794A003BB55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82B6A87223A0794A003BB55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,10 +90,6 @@
 		82B6A8B123A08B46003BB55C /* AppManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManage.m; sourceTree = "<group>"; };
 		82B6A8B323A0978A003BB55C /* NNAPPAuthority.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAPPAuthority.h; sourceTree = "<group>"; };
 		82B6A8B423A0978A003BB55C /* NNAPPAuthority.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAPPAuthority.m; sourceTree = "<group>"; };
-		82B6A8BD23A33489003BB55C /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
-		82B6A8BE23A33489003BB55C /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		82B6A91323A71BC7003BB55C /* UITableView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
-		82B6A91423A71BC7003BB55C /* UITableView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
 		82B6A91623A768B0003BB55C /* NNFMDBDataOperating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNFMDBDataOperating.h; sourceTree = "<group>"; };
 		82B6A91723A768B0003BB55C /* NNFMDBDataOperating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNFMDBDataOperating.m; sourceTree = "<group>"; };
 		82B6A91A23A768E6003BB55C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -96,7 +103,26 @@
 		82B6A92223A768E6003BB55C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		82B6A92323A768E6003BB55C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		82B6A92423A768E6003BB55C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		82B6A92523A768E6003BB55C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D4579C23A85CC50045D955 /* UIView+NNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+NNExtension.h"; sourceTree = "<group>"; };
+		82D4579D23A85CC50045D955 /* UIView+NNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNExtension.m"; sourceTree = "<group>"; };
+		82D4579F23A85CEE0045D955 /* NSDate+NNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NNExtension.h"; sourceTree = "<group>"; };
+		82D457A023A85CEE0045D955 /* NSDate+NNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NNExtension.m"; sourceTree = "<group>"; };
+		82D457A223A881770045D955 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		82D457A323A881770045D955 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		82D457A523A881F20045D955 /* UIView+Effects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Effects.h"; sourceTree = "<group>"; };
+		82D457A623A881F20045D955 /* UIView+Effects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
+		82D457A823A881FB0045D955 /* UIImage+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		82D457A923A881FB0045D955 /* UIImage+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		82D457AB23A883240045D955 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		82D457AC23A883240045D955 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		82D457AE23A883FB0045D955 /* NSMutableDictionary+THH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+THH.h"; sourceTree = "<group>"; };
+		82D457AF23A883FB0045D955 /* NSMutableDictionary+THH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+THH.m"; sourceTree = "<group>"; };
+		82D457B023A883FC0045D955 /* NSMutableDictionary+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safe.h"; sourceTree = "<group>"; };
+		82D457B123A883FC0045D955 /* NSMutableDictionary+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safe.m"; sourceTree = "<group>"; };
+		82D457B423A8AD240045D955 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		82D457B523A8AD240045D955 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		82D457B723A8BDB70045D955 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		82D457B823A8BDB70045D955 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
 		B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMacroDefinition.h; sourceTree = "<group>"; };
 		B3422B2023A27F540090B7DB /* NNGoToSystemSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNGoToSystemSet.h; sourceTree = "<group>"; };
@@ -109,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */,
+				1E0C818AA1C6642EA1BE693C /* libPods-NNTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +156,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68362116E2E8558004F069BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6C519BEF910CCBB30A75D /* Pods-NNTool.debug.xcconfig */,
+				4FED630DDE2736336FD22143 /* Pods-NNTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		82B6A86523A0794A003BB55C = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +173,7 @@
 				82B6A89423A0794B003BB55C /* NNToolUITests */,
 				82B6A86F23A0794A003BB55C /* Products */,
 				B3422B1B23A27A310090B7DB /* Frameworks */,
+				68362116E2E8558004F069BB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,10 +251,26 @@
 		82B6A8BC23A33474003BB55C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				82B6A8BE23A33489003BB55C /* NSDate+Extension.h */,
-				82B6A8BD23A33489003BB55C /* NSDate+Extension.m */,
-				82B6A91323A71BC7003BB55C /* UITableView+Extension.h */,
-				82B6A91423A71BC7003BB55C /* UITableView+Extension.m */,
+				82D457B023A883FC0045D955 /* NSMutableDictionary+safe.h */,
+				82D457B123A883FC0045D955 /* NSMutableDictionary+safe.m */,
+				82D457AE23A883FB0045D955 /* NSMutableDictionary+THH.h */,
+				82D457AF23A883FB0045D955 /* NSMutableDictionary+THH.m */,
+				82D457AC23A883240045D955 /* UIButton+Extension.h */,
+				82D457AB23A883240045D955 /* UIButton+Extension.m */,
+				82D457B423A8AD240045D955 /* NSString+Extension.h */,
+				82D457B523A8AD240045D955 /* NSString+Extension.m */,
+				82D457A923A881FB0045D955 /* UIImage+Tool.h */,
+				82D457A823A881FB0045D955 /* UIImage+Tool.m */,
+				82D457A523A881F20045D955 /* UIView+Effects.h */,
+				82D457A623A881F20045D955 /* UIView+Effects.m */,
+				82D457A323A881770045D955 /* UIView+Extension.h */,
+				82D457A223A881770045D955 /* UIView+Extension.m */,
+				82D4579C23A85CC50045D955 /* UIView+NNExtension.h */,
+				82D4579D23A85CC50045D955 /* UIView+NNExtension.m */,
+				82D4579F23A85CEE0045D955 /* NSDate+NNExtension.h */,
+				82D457A023A85CEE0045D955 /* NSDate+NNExtension.m */,
+				82D457B723A8BDB70045D955 /* UIViewController+Extension.h */,
+				82D457B823A8BDB70045D955 /* UIViewController+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -236,7 +289,6 @@
 				82B6A92223A768E6003BB55C /* FMDatabaseAdditions.h */,
 				82B6A92323A768E6003BB55C /* FMDatabasePool.m */,
 				82B6A92423A768E6003BB55C /* FMResultSet.m */,
-				82B6A92523A768E6003BB55C /* Info.plist */,
 			);
 			path = fmdb;
 			sourceTree = "<group>";
@@ -245,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */,
+				512D70F125BB2591E5877138 /* libPods-NNTool.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82B6A89A23A0794B003BB55C /* Build configuration list for PBXNativeTarget "NNTool" */;
 			buildPhases = (
+				14AE3CAEFFCD6F6B56F1815C /* [CP] Check Pods Manifest.lock */,
 				82B6A86A23A0794A003BB55C /* Sources */,
 				82B6A86B23A0794A003BB55C /* Frameworks */,
 				82B6A86C23A0794A003BB55C /* Resources */,
+				66B1C961129FEF509936D9C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,7 +407,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B6A92B23A768E6003BB55C /* Info.plist in Resources */,
 				82B6A87E23A0794B003BB55C /* LaunchScreen.storyboard in Resources */,
 				82B6A87B23A0794B003BB55C /* Assets.xcassets in Resources */,
 				82B6A87923A0794A003BB55C /* Main.storyboard in Resources */,
@@ -375,27 +429,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14AE3CAEFFCD6F6B56F1815C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NNTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66B1C961129FEF509936D9C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NNTool/Pods-NNTool-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNTool/Pods-NNTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82B6A86A23A0794A003BB55C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D457A423A881770045D955 /* UIView+Extension.m in Sources */,
 				82B6A8A723A07FBB003BB55C /* NNString.m in Sources */,
+				82D4579E23A85CC50045D955 /* UIView+NNExtension.m in Sources */,
+				82D457B923A8BDB70045D955 /* UIViewController+Extension.m in Sources */,
 				B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */,
 				82B6A8B523A0978A003BB55C /* NNAPPAuthority.m in Sources */,
 				82B6A92823A768E6003BB55C /* FMDatabase.m in Sources */,
 				82B6A8AD23A08671003BB55C /* NNObserver.m in Sources */,
+				82D457B623A8AD240045D955 /* NSString+Extension.m in Sources */,
+				82D457AA23A881FB0045D955 /* UIImage+Tool.m in Sources */,
+				82D457B323A883FC0045D955 /* NSMutableDictionary+THH.m in Sources */,
 				82B6A92623A768E6003BB55C /* FMDatabaseQueue.m in Sources */,
 				82B6A92723A768E6003BB55C /* FMDatabaseAdditions.m in Sources */,
 				82B6A91823A768B0003BB55C /* NNFMDBDataOperating.m in Sources */,
 				82B6A87623A0794A003BB55C /* ViewController.m in Sources */,
 				82B6A88123A0794B003BB55C /* main.m in Sources */,
-				82B6A8BF23A33489003BB55C /* NSDate+Extension.m in Sources */,
+				82D457A123A85CEE0045D955 /* NSDate+NNExtension.m in Sources */,
 				82B6A8AA23A084ED003BB55C /* NNTimer.m in Sources */,
-				82B6A91523A71BC7003BB55C /* UITableView+Extension.m in Sources */,
 				82B6A92A23A768E6003BB55C /* FMResultSet.m in Sources */,
+				82D457AD23A883250045D955 /* UIButton+Extension.m in Sources */,
 				82B6A92923A768E6003BB55C /* FMDatabasePool.m in Sources */,
+				82D457B223A883FC0045D955 /* NSMutableDictionary+safe.m in Sources */,
 				82B6A8B223A08B46003BB55C /* AppManage.m in Sources */,
+				82D457A723A881F20045D955 /* UIView+Effects.m in Sources */,
 				82B6A87323A0794A003BB55C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +674,7 @@
 		};
 		82B6A89B23A0794B003BB55C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD6C519BEF910CCBB30A75D /* Pods-NNTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +693,7 @@
 		};
 		82B6A89C23A0794B003BB55C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FED630DDE2736336FD22143 /* Pods-NNTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -37,6 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void) openURL:(NSString *) urlStr;
 
+/**
+ 拨打电话
+ */
++ (void) call:(NSString *) phone;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -9,7 +9,7 @@
 #import "NNFMDBDataOperating.h"
 #import "FMDB.h"
 
-#define kDataBaseName @"data.sqlite"
+#define kDataBaseName  [KAPPName stringByAppendingString:@".sqlite"]
 
 @interface NNFMDBDataOperating ()
 
@@ -60,7 +60,6 @@ static NNFMDBDataOperating *dataOperating = nil;
         }
         //重新创建一个。
         self.dataBaseQueue = [FMDatabaseQueue databaseQueueWithPath:dbPath];
-        
     }
     return self;
 }

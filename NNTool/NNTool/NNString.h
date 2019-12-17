@@ -55,13 +55,18 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)removeSuffix:(NSString *)numberStr;
 
-
 /**
  限制文本个数
  text 需要操作的文本
  number 限制的个数
  */
 + (NSString *) limitTheNumberOfTextsWithText:(NSString *) text limitTheNumber:(NSInteger) number;
+
+/**
+ 将阿拉伯数字转换为中文数字
+ arabicNum 字符数字
+ */
++ (NSString *)translationArabicNum:(NSString *)arabicNum;
 
 @end
 

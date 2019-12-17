@@ -47,4 +47,18 @@
     ];
 }
 
+// 拨打电话
++ (void) call:(NSString *) phone
+{
+    NSMutableString * str = [[NSMutableString alloc] initWithFormat:@"tel:%@",phoneStr];
+    /// 10及其以上系统
+    if (@available(iOS 10.0, *)) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:nil];
+    } else {
+        /// 10以下系统
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+    }
+}
+
+
 @end
