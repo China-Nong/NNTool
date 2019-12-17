@@ -1,0 +1,39 @@
+// 第一次
+git init
+git add README.md
+git commit -m“第一次提交”
+git remote add origin https://github.com/China-Nong/NNTool.git
+git push -u origin master
+
+// 修改远程库
+git remote rm origin
+git remote add origin 你的新远程仓库地址
+
+// 提交
+cd 到文件
+git status 查看状态
+git add .
+git commit -m “信息”
+git push origin master
+git push
+
+
+// cocopads
+cd 项目目录
+
+pod install
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'APPName' do
+
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'JSONModel'
+
+end

@@ -37,6 +37,7 @@
 		82D457B323A883FC0045D955 /* NSMutableDictionary+THH.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457AF23A883FB0045D955 /* NSMutableDictionary+THH.m */; };
 		82D457B623A8AD240045D955 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457B523A8AD240045D955 /* NSString+Extension.m */; };
 		82D457B923A8BDB70045D955 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D457B823A8BDB70045D955 /* UIViewController+Extension.m */; };
+		82D457BB23A8D8540045D955 /* 操作 in Resources */ = {isa = PBXBuildFile; fileRef = 82D457BA23A8D8540045D955 /* 操作 */; };
 		B3422B1D23A27A320090B7DB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */; };
 		B3422B2223A27F540090B7DB /* NNGoToSystemSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3422B2123A27F540090B7DB /* NNGoToSystemSet.m */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		82D457B523A8AD240045D955 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		82D457B723A8BDB70045D955 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
 		82D457B823A8BDB70045D955 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		82D457BA23A8D8540045D955 /* 操作 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "操作"; sourceTree = "<group>"; };
 		B3422B1C23A27A320090B7DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B3422B1E23A27BE10090B7DB /* NNMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMacroDefinition.h; sourceTree = "<group>"; };
 		B3422B2023A27F540090B7DB /* NNGoToSystemSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNGoToSystemSet.h; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				82B6A87C23A0794B003BB55C /* LaunchScreen.storyboard */,
 				82B6A87F23A0794B003BB55C /* Info.plist */,
 				82B6A88023A0794B003BB55C /* main.m */,
+				82D457BA23A8D8540045D955 /* 操作 */,
 			);
 			path = NNTool;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			files = (
 				82B6A87E23A0794B003BB55C /* LaunchScreen.storyboard in Resources */,
 				82B6A87B23A0794B003BB55C /* Assets.xcassets in Resources */,
+				82D457BB23A8D8540045D955 /* 操作 in Resources */,
 				82B6A87923A0794A003BB55C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
